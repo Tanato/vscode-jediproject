@@ -1,17 +1,19 @@
-# [Gulp - VS Code](https://github.com/Tanato/vscode-jediproject)
+# [Jedi Project for Visual Studio Code](https://github.com/Tanato/vscode-jediproject)
 
 ## Installation
 
 Type `cmd+p`/`ctrl+p` to bring up the command pallete and pick `>ext install` from the dropdown, type `jedi` and select the extension, restart VSCode and you are all set.
 
-## Snippets
+## Snippets Javascript
 
-#### gulpvar
+### jd
+
+## Snippets HTML
+
+#### jdpanel
 ```
-var gulp = require('gulp-name');
+  <div jd-panel jd-title="title" jd-toggle>
+    //content
+  </div>var gulp = require('gulp-name');
 ```
 
-#### pipe | gulppipe
-```
-.pipe(name('file'))
-```
