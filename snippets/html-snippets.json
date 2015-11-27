@@ -1,0 +1,8 @@
+{
+    "jdpanel": {
+        "prefix": "jdpanel",
+        "body": "<div jd-panel jd-title=\"${1:title}\" jd-toggle>\n    ${2:content}\n</div>",
+        "description": "Add a Jedi toggle Panel",
+        "scope": "source.js"
+    }
+}
